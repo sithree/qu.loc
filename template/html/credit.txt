@@ -1,0 +1,20 @@
+animated.css	https://github.com/daneden/animate.css
+jquery knob 	https://github.com/aterrien/jQuery-Knob
+Morris		http://www.oesmith.co.uk/morris.js/
+Slim Scroll	http://rocha.la/jQuery-slimScroll
+Nifty Modal	http://www.codrops.com
+Sortable	http://github.hubspot.com/sortable/
+Select		http://silviomoreto.github.io/bootstrap-select/
+Summernote	http://hackerwins.github.io/summernote/
+Magnific Popup	http://dimsemenov.com/plugins/magnific-popup/
+Font Awesome	http://fontawesome.io/icons/
+ICheck		https://github.com/fronteed/iCheck/
+Validator	https://github.com/nghuuphuoc/bootstrapvalidator
+Wizard		https://github.com/st3ph/jquery.easyWizard
+Photos		http://www.morguefile.com/archive
+		http://imcreator.com/free
+Vector Avatar	http://jozef89.deviantart.com/art/Flat-avatars-icons-411333178
+Loading CSS	http://codepen.io/BrianCsection/pen/wgrFe
+Weather Icon	https://github.com/erikflowers/weather-icons
+Video		https://vimeo.com/
+SOund		https://soundcloud.com/
