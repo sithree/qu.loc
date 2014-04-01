@@ -1,233 +1,106 @@
-<aside id="sidebar">
-    <div class="side-options">
-        <ul class="list-unstyled">
-            <li>
-                <a href="#" id="collapse-nav" class="act act-primary tip" title="Скрыть/развернуть">
-                    <i class="icon16 i-arrow-left-7"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
+<div class="left side-menu">
 
-    <div class="sidebar-wrapper">
-        <nav id="mainnav">
-            <ul class="nav nav-list">
-                <li>
-                    <a href="dashboard.html">
-                        <span class="icon"><i class="icon20 i-screen"></i></span>
-                        <span class="txt">Главная страница</span>
+
+    <div class="body rows scroll-y">
+
+        <!-- Scrolling sidebar -->
+        <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 567px;"><div class="sidebar-inner slimscroller" style="overflow: hidden; width: auto; height: 567px;">
+
+                <!-- User Session -->
+                <div class="media">
+                    <a href="#fakelink" class="pull-left">
+                        <img alt="Avatar" src="assets/img/avatar/masarie.jpg" class="media-object img-circle">
                     </a>
-                </li>
-                <li>
-                    <a href="#actions">
-                        <span class="icon"><i class="icon20 i-stats-up"></i></span>
-                        <span class="txt">Акции</span>
-                    </a>
-                    <ul class="sub">
-                        <li>
-                            <a href="form-elements.html">
-                                <span class="icon"><i class="icon20 i-stack-list"></i></span>
-                                <span class="txt">Все</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="form-validation.html">
-                                <span class="icon"><i class="icon20 i-stack-checkmark"></i></span>
-                                <span class="txt">Создать новую</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#forms">
-                        <span class="icon"><i class="icon20 i-menu-6"></i></span>
-                        <span class="txt">Товары/услуги</span>
-                    </a>
-                    <ul class="sub">
-                        <li>
-                            <a href="form-elements.html">
-                                <span class="icon"><i class="icon20 i-stack-list"></i></span>
-                                <span class="txt">Все</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="form-validation.html">
-                                <span class="icon"><i class="icon20 i-stack-checkmark"></i></span>
-                                <span class="txt">Создать новый</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#tables">
-                        <span class="icon"><i class="icon20 i-table-2"></i></span>
-                        <span class="txt">Пользователи</span>
-                    </a>
-                    <ul class="sub">
-                        <li>
-                            <a href="form-elements.html">
-                                <span class="icon"><i class="icon20 i-stack-list"></i></span>
-                                <span class="txt">Все</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="form-validation.html">
-                                <span class="icon"><i class="icon20 i-stack-checkmark"></i></span>
-                                <span class="txt">Создать новую</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="grid.html">
-                        <span class="icon"><i class="icon20 i-grid-5"></i></span>
-                        <span class="txt">Сертификаты</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="typo.html">
-                        <span class="icon"><i class="icon20 i-font"></i></span>
-                        <span class="txt">Заказы</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="calendar.html">
-                        <span class="icon"><i class="icon20 i-calendar"></i></span>
-                        <span class="txt">Заказы</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="icon20 i-cogs"></i></span>
-                        <span class="txt">Каталог</span>
-                    </a>
-                    <ul class="sub">
-                        <li>
-                            <a href="icons.html">
-                                <span class="icon"><i class="icon20 i-IcoMoon"></i></span>
-                                <span class="txt">Категории</span>
-                            </a>
-                        </li>
-                        
-                    </ul>
-                </li>
-                <li>
-                    <a href="gallery.html">
-                        <span class="icon"><i class="icon20 i-images"></i></span>
-                        <span class="txt">Gallery</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="maps.html">
-                        <span class="icon"><i class="icon20 i-location-4"></i></span>
-                        <span class="txt">Места акций</span>
-                        <span class="notification green">6</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="file-manager.html">
-                        <span class="icon"><i class="icon20 i-cloud-upload"></i></span>
-                        <span class="txt">Файловый менеджер</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="widgets.html">
-                        <span class="icon"><i class="icon20 i-cube-3"></i></span>
-                        <span class="txt">Блог</span>
-                        <span class="notification">26</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="icon20 i-file-8"></i></span>
-                        <span class="txt">Страницы</span>
-                    </a>
-                    <ul class="sub">
-                        <li>
-                            <a href="#">
-                                <span class="icon"><i class="icon20 i-warning"></i></span>
-                                <span class="txt">Error Pages</span>
-                            </a>
-                            <ul class="sub">
-                                <li>
-                                    <a href="403.html">
-                                        <span class="icon"><i class="icon20 i-notification"></i></span>
-                                        <span class="txt">Error 403</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="404.html">
-                                        <span class="icon"><i class="icon20 i-notification"></i></span>
-                                        <span class="txt">Error 404</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="405.html">
-                                        <span class="icon"><i class="icon20 i-notification"></i></span>
-                                        <span class="txt">Error 405</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="500.html">
-                                        <span class="icon"><i class="icon20 i-notification"></i></span>
-                                        <span class="txt">Error 500</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="503.html">
-                                        <span class="icon"><i class="icon20 i-notification"></i></span>
-                                        <span class="txt">Error 503</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="offline.html">
-                                        <span class="icon"><i class="icon20 i-notification"></i></span>
-                                        <span class="txt">Offline page</span>
-                                    </a>
-                                </li>
+                    <div class="media-body">
+                        Welcome back,
+                        <h4 class="media-heading"><strong>Mas Bro</strong></h4>
+                        <a href="user-profile.html">Edit</a>
+                        <a data-modal="logout-modal-alt" class="md-trigger">Logout</a>
+                    </div><!-- End div .media-body -->
+                </div><!-- End div .media -->
+
+
+                <!-- Search form -->
+                <div id="search">
+                    <form role="form">
+                        <input type="text" placeholder="Search here..." class="form-control search">
+                        <i class="fa fa-search"></i>
+                    </form>
+                </div><!-- End div #search -->
+
+
+                <!-- Sidebar menu -->				
+                <div id="sidebar-menu">
+                    <ul>
+                        <li><a href="index.html"><i class="fa fa-home"></i> Dashboard</a></li>
+                        <li><a href="#fakelink"><i class="fa fa-leaf"></i> Frontend <span class="label label-danger new-circle">COMING SOON</span></a></li>
+                        <li><a href="#fakelink"><i class="fa fa-bug"></i><i class="fa fa-angle-double-down i-right"></i> Elements</a>
+                            <ul>
+                                <li><a href="element-primary.html"><i class="fa fa-angle-right"></i> Primary <span class="label label-success new-circle">UPDATED</span></a></li>
+                                <li><a href="element-extended.html"><i class="fa fa-angle-right"></i> Extended</a></li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="invoice.html">
-                                <span class="icon"><i class="icon20 i-credit"></i></span>
-                                <span class="txt">Invoice page</span>
-                            </a>
+                        <li><a href="#fakelink"><i class="fa fa-code"></i><i class="fa fa-angle-double-down i-right"></i> Widgets</a>
+                            <ul>
+                                <li><a href="widget-awesome.html"><i class="fa fa-angle-right"></i> Awesome <span class="label label-danger new-circle">+5 new</span></a></li>
+                                <li><a href="widget-grid.html"><i class="fa fa-angle-right"></i> Grid</a></li>
+                            </ul>
                         </li>
-                        <li>
-                            <a href="profile.html">
-                                <span class="icon"><i class="icon20 i-user"></i></span>
-                                <span class="txt">Profile page</span>
-                            </a>
+                        <li><a href="#fakelink"><i class="fa fa-edit"></i><i class="fa fa-angle-double-down i-right"></i> Forms</a>
+                            <ul>
+                                <li><a href="form-element.html"><i class="fa fa-angle-right"></i> Form Element</a></li>
+                                <li><a href="form-wizard.html"><i class="fa fa-angle-right"></i> Form Wizard</a></li>
+                                <li><a href="form-validation.html"><i class="fa fa-angle-right"></i> Form Validation</a></li>
+                            </ul>
                         </li>
-                        <li>
-                            <a href="search.html">
-                                <span class="icon"><i class="icon20 i-search-2"></i></span>
-                                <span class="txt">Search page</span>
-                            </a>
+                        <li><a href="tables.html"><i class="fa fa-table"></i> Tables</a></li>
+                        <li><a href="gallery.html"><i class="fa fa-picture-o"></i><i class="fa fa-star i-right yellow"></i> Gallery</a></li>
+                        <li><a href="morris.html"><i class="fa fa-bar-chart-o"></i> Graph / Chart</a></li>
+                        <li><a href="#fakelink"><i class="fa fa-home"></i><i class="fa fa-angle-double-down i-right"></i> Pages <span class="label label-success new-circle animated double shake span-left">13</span></a>
+                            <ul>
+                                <li><a href="login.html"><i class="fa fa-angle-right"></i> Login</a></li>
+                                <li><a href="lock-screen.html"><i class="fa fa-angle-right"></i> Lock Screen</a></li>
+                                <li><a href="forgot-password.html"><i class="fa fa-angle-right"></i> Forgot Password</a></li>
+                                <li><a href="register.html"><i class="fa fa-angle-right"></i> Register</a></li>
+                                <li><a href="user-profile.html"><i class="fa fa-angle-right"></i> User Profile</a></li>
+                                <li><a href="user-profile-2.html"><i class="fa fa-angle-right"></i> User Profile 2 <span class="label label-danger new-circle">NEW</span></a></li>
+                                <li><a href="empty-data.html"><i class="fa fa-angle-right"></i> Empty Data <span class="label label-danger new-circle">NEW</span></a></li>
+                                <li><a href="invoice.html"><i class="fa fa-angle-right"></i> Invoice</a></li>
+                                <li><a href="pricing-table.html"><i class="fa fa-angle-right"></i> Pricing Table <span class="label label-success new-circle">UPDATED</span></a></li>
+                                <li><a href="faq.html"><i class="fa fa-angle-right"></i> FAQ</a></li>
+                                <li><a href="search-result.html"><i class="fa fa-angle-right"></i> Search Result <span class="label label-success new-circle">UPDATED</span></a></li>
+                                <li><a href="404.html"><i class="fa fa-angle-right"></i> 404</a></li>
+                                <li><a href="blank.html"><i class="fa fa-angle-right"></i> Blank</a></li>
+                            </ul>
                         </li>
-                        <li>
-                            <a href="email.html">
-                                <span class="icon"><i class="icon20 i-envelop-2"></i></span>
-                                <span class="txt">Email page</span>
-                            </a>
+                        <li class="active"><a href="#fakelink"><i class="fa fa-smile-o"></i><i class="fa fa-angle-double-down i-right"></i> Icons</a>
+                            <ul class="visible">
+                                <li class="active"><a href="font-awesome.html"><i class="fa fa-angle-right"></i> Font Awesome</a></li>
+                                <li><a href="glyphicons.html"><i class="fa fa-angle-right"></i> Glyphicons</a></li>
+                                <li><a href="weather-icons.html"><i class="fa fa-angle-right"></i> Weather icons <span class="label label-danger new-circle">NEW</span></a></li>
+                            </ul>
                         </li>
-                        <li>
-                            <a href="faq.html">
-                                <span class="icon"><i class="icon20 i-question"></i></span>
-                                <span class="txt">FAQ page</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="blank.html">
-                                <span class="icon"><i class="icon20 i-file-7"></i></span>
-                                <span class="txt">Blank page</span>
-                            </a>
+                        <li><a href="#fakelink"><i class="fa fa-envelope"></i><i class="fa fa-angle-double-down i-right"></i> Message  <span class="label label-success new-circle span-left">UPDATED</span></a>
+                            <ul>
+                                <li><a href="inbox.html"><i class="fa fa-angle-right"></i> Inbox</a></li>
+                                <li><a href="new-message.html"><i class="fa fa-angle-right"></i> New Message</a></li>
+                                <li><a href="reply-message.html"><i class="fa fa-angle-right"></i> Reply Message <span class="label label-danger new-circle">NEW</span></a></li>
+                                <li><a href="read-message.html"><i class="fa fa-angle-right"></i> Read Message</a></li>
+                            </ul>
                         </li>
                     </ul>
-                </li>
-            </ul>
-        </nav> <!-- End #mainnav -->
+                    <div class="clear"></div>
+                </div><!-- End div #sidebar-menu -->
+            </div><div class="slimScrollBar" style="background: none repeat scroll 0% 0% rgb(0, 0, 0); width: 3px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 460.586px;"></div><div class="slimScrollRail" style="width: 3px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: none repeat scroll 0% 0% rgb(51, 51, 51); opacity: 0.3; z-index: 90; right: 1px;"></div></div><!-- End div .sidebar-inner .slimscroller -->
+    </div><!-- End div .body .rows .scroll-y -->
 
-
-    </div> <!-- End .sidebar-wrapper  -->
-</aside><!-- End #sidebar  -->
+    <!-- Sidebar footer -->
+    <div class="footer rows animated fadeInUpBig">
+        <div class="progress progress-xs progress-striped active">
+            <div style="width: 80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar progress-bar-success">
+                <span class="progress-precentage">80%</span>
+            </div><!-- End div .pogress-bar -->
+            <a data-modal="task-progress" class="btn btn-default md-trigger" title="" data-toggle="tooltip" data-original-title="See task progress"><i class="fa fa-inbox"></i></a>
+        </div><!-- End div .progress .progress-xs -->
+    </div><!-- End div .footer .rows -->
+</div>
